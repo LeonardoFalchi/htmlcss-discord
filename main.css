@@ -19,6 +19,7 @@ body {
     border-radius: 20px;
     padding: 9px 13px;
     border: none;
+    font-size: 15px;
 }
 
 #apri-discord {
@@ -27,6 +28,7 @@ body {
     border-radius: 20px;
     padding: 9px 13px;
     border: none;
+    font-size: 15px;
 }
 
 #scarica-mac-blu {
@@ -35,6 +37,7 @@ body {
     border-radius: 20px;
     padding: 9px 13px;
     border: none;
+    font-size: 18px;
 
 }
 
@@ -217,12 +220,13 @@ header {
 
 .left-footer{
     width: 20%;
-    margin-top: 10px;
+    margin-top: 4%;
 }
 
 .left-footer h2 {
     color: #8f9fe0;
     font-size: 32px;
+    padding-top: 0;
 }
 
 .left-footer img {
@@ -240,12 +244,12 @@ header {
     height: 30px;
     margin-top: 8px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .right-footer {
     width: 60%;
-    margin-top: 10px;
+    margin-top: 4%;
 }
 
 .nav-footer-container {
@@ -282,7 +286,7 @@ header {
 
 
 .second-footer-container {
-    height: 70px;
+    height: 100px;
     background-color: #23272a;
     display: flex;
     justify-content: center;
@@ -291,18 +295,13 @@ header {
 }
 
 .second-footer {
-    height: 50px;
+    height: 70px;
     width: 80%;
+    border-top: 1px solid #555966;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* DEBUG */
-    background-color: #7f0000;
+    
 }
 
- .logo-footer , .bottone-footer {
-    padding: 3px 5px;
-    /* DEBUG */
-    background-color: #ff6e49;
-}
 
