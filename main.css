@@ -12,7 +12,7 @@ body {
 
 /* bottoni */
 
-#button-accedi ,
+#button-accedi,
 #scarica-mac {
     color: black;
     background-color: white;
@@ -52,7 +52,7 @@ header {
     background-color: #2A5EE8;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,18 +123,16 @@ header {
 
 /* contenuto principale */
 
-.first-section ,
-.second-section ,
-.third-section ,
+.first-section,
+.third-section,
 .fourth-section {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
-.first-section .big ,
-.second-section .big ,
+.first-section .big,
 .third-section .big {
     display: flex;
     justify-content: center;
@@ -152,21 +150,17 @@ header {
     margin-bottom: 9%;
 }
 
-
 .second-section {
     background-color: #F6F6F6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .second-section .small {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 7%;
-    margin-bottom: 7%;
+    padding-left: 4%;
 }
 
-.second-section .big {
-    width: 100%;
-}
 
 
 .fourth-section {
@@ -202,8 +196,8 @@ header {
     margin-top: 7%;
     margin-bottom: 7%;
     font-size: 18px;
-    
-    
+
+
 }
 
 
@@ -215,10 +209,10 @@ header {
     background-color: #23272a;
     display: flex;
     justify-content: center;
-    
+
 }
 
-.left-footer{
+.left-footer {
     width: 20%;
     margin-top: 4%;
 }
@@ -256,7 +250,7 @@ header {
     height: 100%;
     display: flex;
     justify-content: center;
-   
+
 }
 
 .nav-block {
@@ -265,10 +259,10 @@ header {
     justify-content: center;
 }
 
-.nav-block ul{
+.nav-block ul {
     color: #8f9fe0;
     font-weight: bold;
-    
+
 }
 
 .nav-block li {
@@ -277,12 +271,7 @@ header {
     text-decoration: none;
     padding-bottom: 6%;
     padding-top: 6%;
-    
-
 }
-
-
-
 
 
 .second-footer-container {
@@ -291,7 +280,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    
 }
 
 .second-footer {
@@ -301,7 +289,4 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
-
-
