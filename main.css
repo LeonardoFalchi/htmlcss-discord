@@ -101,14 +101,13 @@ header {
     color: white;
     margin-top: 50px;
     margin-bottom: 35px;
+    font-size: 45px;
 }
 
 .jumbotron-content p {
     color: white;
     margin-bottom: 20px;
 }
-
-.jumbotron-content button 
 
 
 /* contenuto principale */
@@ -120,20 +119,34 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
 }
 
-.first-section ,
-.third-section {
-    /* DEBUG */
-    height: 500px;
-    background-color: white;
+.first-section .big {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
+
+.first-section .small {
+    padding-right: 11%;
+}
+
+.small h1 {
+    font-size: 40px;
+    margin-bottom: 9%;
+}
+
 
 .second-section {
     /* DEBUG */
     height: 500px;
     background-color: lightgrey;
+}
+
+.third-section {
+
 }
 
 .fourth-section {
@@ -144,19 +157,14 @@ header {
 
 .big {
     width: 50%;
-    /* DEBUG */
-    background-color: darkred;
-    height: 400px;
-    border: 1px dashed black;
+    font-size: 19px;
 }
 
 .small {
     width: 30%;
-    /* DEBUG */
-    background-color: red;
-    height: 400px;
-    border: 1px dashed black;
+    font-size: 18px;
 }
+
 
 .block {
     width: 80%;
