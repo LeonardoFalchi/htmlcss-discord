@@ -122,14 +122,16 @@ header {
     align-items: center;   
 }
 
-.first-section .big {
+.first-section .big ,
+.third-section .big {
     display: flex;
     justify-content: center;
     margin-top: 7%;
     margin-bottom: 7%;
 }
 
-.first-section .small {
+.first-section .small ,
+.third-section .small {
     padding-right: 11%;
 }
 
@@ -145,9 +147,6 @@ header {
     background-color: lightgrey;
 }
 
-.third-section {
-
-}
 
 .fourth-section {
     /* DEBUG */
@@ -157,7 +156,7 @@ header {
 
 .big {
     width: 50%;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .small {
