@@ -19,8 +19,7 @@ header {
     align-items: center;
     margin: 0 auto;
     height: 70px;
-    /* DEBUG */
-    background-color: lightskyblue;
+    background-color: #2A5EE8;
 }
 
 .nav-container{
@@ -30,9 +29,7 @@ header {
     height: 50px;
     width: 80%;
     padding: 0 10px;
-    /* DEBUG */
-    background-color: yellow;
-    border: 1px dashed black;
+    background-color: #2A5EE8;
 }
 
 .nav-logo {
@@ -41,12 +38,32 @@ header {
 
 .nav-link {
     flex-grow: 1;
-    text-align: center;
+}
+
+.nav-link ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .nav-login {
     flex-basis: 20%;
     text-align: right;
+}
+
+#button-accedi {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 9px 13px;
+    border: none;
+
 }
 
 
