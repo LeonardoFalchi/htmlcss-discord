@@ -1,4 +1,4 @@
-/* generals */
+/* generale */
 
 * {
     margin: 0;
@@ -10,6 +10,25 @@ body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* bottoni */
+
+#button-accedi ,
+#scarica-mac {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 9px 13px;
+    border: none;
+}
+
+#apri-discord {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 9px 13px;
+    border: none;
+
+}
 
 /* header */
 
@@ -49,7 +68,6 @@ header {
 .nav-link a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .nav-login {
@@ -57,33 +75,40 @@ header {
     text-align: right;
 }
 
-#button-accedi {
-    color: black;
-    background-color: white;
-    border-radius: 20px;
-    padding: 9px 13px;
-    border: none;
-
-}
-
 
 /* jumbotron */
 
 .jumbotron {
-    padding: 50px 0;
     display: flex;
     justify-content: center;
-    /* DEBUG */
-    background-color: blue;
-    height: 400px;
+    width: 100%;
+    padding: 50px 0;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 464px;
 }
 
 .jumbotron-content {
     width: 60%;
-    /* DEBUG */
-    background-color: orange;
-    border: 1px dashed black; 
+    padding: 0 8%;
+    text-align: center;
+    font-size: 19px;
 }
+
+.jumbotron-content h1 {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.jumbotron-content p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.jumbotron-content button 
 
 
 /* contenuto principale */
